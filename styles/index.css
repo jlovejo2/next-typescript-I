@@ -1,0 +1,7 @@
+@tailwindcss base;
+@tailwindcss components;
+@tailwindcss utilities;
+
+body {
+  @apply bg-blue-500;
+}

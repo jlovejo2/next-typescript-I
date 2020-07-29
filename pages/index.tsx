@@ -1,9 +1,9 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function Home() {
   return (
     <ul>
-      <li>
+      <li className="p-15">
         <Link href="/a" as="/a">
           <a>a</a>
         </Link>
@@ -14,5 +14,5 @@ export default function Home() {
         </Link>
       </li>
     </ul>
-  )
+  );
 }
